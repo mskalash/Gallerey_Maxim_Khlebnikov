@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        GridView gridView = (GridView) findViewById(R.id.grid_view);
+        GridView gridView = (GridView) findViewById(R.id.gridView);
 
         //Создаем пример класса ImageAdapter:
         gridView.setAdapter(new ImageAdapter(this));

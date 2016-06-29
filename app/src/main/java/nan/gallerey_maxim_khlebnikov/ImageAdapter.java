@@ -1,6 +1,7 @@
 package nan.gallerey_maxim_khlebnikov;
 
 import android.content.Context;
+import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -12,7 +13,8 @@ public class ImageAdapter extends BaseAdapter {
 
     //Добавляем изображения в массив:
     public Integer[] mThumbIds = {
-            R.drawable.leaves, R.drawable.sun, R.drawable.water,
+            R.drawable.e6c, R.drawable.e,R.drawable.e,R.drawable.e,R.drawable.e,
+            R.drawable.e,R.drawable.e,R.drawable.e,R.drawable.e,R.drawable.e,R.drawable.e,R.drawable.e,
     };
 
     //Конструктор:
@@ -40,7 +42,7 @@ public class ImageAdapter extends BaseAdapter {
         ImageView imageView = new ImageView(mContext);
         imageView.setImageResource(mThumbIds[position]);
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        imageView.setLayoutParams(new GridView.LayoutParams(70, 70));
+        imageView.setLayoutParams(new GridView.LayoutParams(190,  190));
         return imageView;
     }
 }
