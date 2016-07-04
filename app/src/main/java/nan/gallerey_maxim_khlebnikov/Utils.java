@@ -56,11 +56,13 @@ public class Utils {
 			}
 
 		} else {
+
 			AlertDialog.Builder alert = new AlertDialog.Builder(_context);
-			alert.setTitle("Error!");
+			alert.setTitle("Внимание!");
 			alert.setMessage(AppConstant.PHOTO_ALBUM
-					+ " директория не найдена! Установите новую директорию в  AppConstant.java class");
+					+ " создана пожалуйста наполните её изображениями.");
 			alert.setPositiveButton("OK", null);
+			directory.mkdir();
 			alert.show();
 		}
 

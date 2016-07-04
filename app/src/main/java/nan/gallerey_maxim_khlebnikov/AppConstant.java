@@ -12,7 +12,7 @@ public class AppConstant {
 	public static final int GRID_PADDING = 8; // in dp
 
 	// место нахождения папки
-	public static final String PHOTO_ALBUM = "SDImageTutorial";
+	public static final String PHOTO_ALBUM = "NATURE";
 
 	// Поддерживаемые форматы
 	public static final List<String> FILE_EXTN = Arrays.asList("jpg", "jpeg",
